@@ -23,7 +23,7 @@ export const Product: React.FC<ProductType> = ({
 }) => {
   return (
     <S.Wrapper>
-      <Image src={imgUrl} alt="product" width={150} height={150} />
+      <Image unoptimized src={imgUrl} alt="product" width={150} height={150} />
       <h1>{title}</h1>
       <p>{description}</p>
       <ul>

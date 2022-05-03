@@ -1,4 +1,5 @@
-import * as S from './styles'
+import Wrapper from './styles'
+
 import Header from '../../components/Header'
 import Hero from '../../components/Hero'
 import Partners from '../../components/Partners'
@@ -9,7 +10,7 @@ import Newsletter from '../../components/Newsletter'
 import Footer from '../../components/Footer'
 
 const Main = () => (
-  <S.Wrapper>
+  <Wrapper>
     <Header />
     <Hero />
     <Partners />
@@ -18,7 +19,7 @@ const Main = () => (
     <Contact />
     <Newsletter />
     <Footer />
-  </S.Wrapper>
+  </Wrapper>
 )
 
 export default Main

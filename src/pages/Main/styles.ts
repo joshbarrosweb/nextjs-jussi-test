@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Wrapper = styled.main`
+const Wrapper = styled.main`
   background-color: #ffffff;
   color: #fff;
   width: 100%;
@@ -9,3 +9,5 @@ export const Wrapper = styled.main`
   display: flex;
   flex-direction: column;
 `
+
+export default Wrapper

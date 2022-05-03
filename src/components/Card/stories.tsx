@@ -7,5 +7,5 @@ export default {
 } as Meta
 
 export const Basic: Story = () => (
-  <Card imgUrl={'https://via.placeholder.com/150'} buttonLabel={'Storybook'} />
+  <Card imgUrl={'/assets/fridge.png'} buttonLabel={'Storybook'} />
 )

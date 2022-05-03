@@ -11,10 +11,11 @@ export const Card: React.FC<CardType> = ({ imgUrl, buttonLabel }) => {
   return (
     <S.Wrapper>
       <Image
+        unoptimized
         src={imgUrl}
         alt="card"
-        width="150%"
-        height="150%"
+        width={150}
+        height={150}
         objectFit="contain"
       />
       <button>{buttonLabel}</button>

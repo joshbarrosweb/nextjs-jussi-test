@@ -8,7 +8,7 @@ export default {
 
 export const Basic: Story = () => (
   <Product
-    imgUrl={'https://via.placeholder.com/150'}
+    imgUrl={'/assets/fridge.png'}
     title={'Storybook'}
     description={'Storybook'}
     buttonLabel={'Storybook'}

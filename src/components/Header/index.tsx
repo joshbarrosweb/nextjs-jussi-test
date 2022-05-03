@@ -32,7 +32,7 @@ const Header = () => {
     loadUsers()
   }, [])
 
-  const onChangeHandler = (text: any) => {
+  const onChangeHandler = (text: string) => {
     let matches: Array<string> = []
 
     if (text.length > 0) {
@@ -47,12 +47,12 @@ const Header = () => {
     setText(text)
   }
 
-  const onSuggestionHandler = (text: any) => {
+  const onSuggestionHandler = (text: string) => {
     setText(text)
     setSuggestions([])
   }
 
-  const handleSubmit = (e: any) => {
+  const handleSubmit = (e: event) => {
     e.preventDefault()
   }
 
