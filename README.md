@@ -1,10 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Teste para vaga de Desenvolvedor Front End Pleno - JUSSI
 
 ## Como iniciar
 
-Primeiramente, ligue o servidor de desenvolvimento
+Primeiramente instale todas as dependencias:
+
+```bash
+npm install
+# ou
+yarn
+```
+
+Segundo, ligue o servidor de desenvolvimento
 
 ```bash
 npm run dev
